@@ -1,0 +1,46 @@
+@import "../styles/index.css";
+
+.flexGroup {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.summaryItem {
+  padding-block: 1.125rem;
+  padding-inline: 1rem;
+  border-radius: 0.75rem;
+  font-size: var(--fs-500);
+  font-weight: var(--fw-500);
+  display: flex;
+  justify-content: space-between;
+}
+
+.summaryItemScore {
+  color: var(--Dark-gray-blue-a);
+  font-weight: var(--fw-700);
+}
+
+.summaryItemScore > span {
+  color: var(--Dark-gray-blue);
+}
+
+.Reaction {
+  background: linear-gradient(0deg, var(--White-95), var(--White-95)),
+    var(--Light-red);
+  color: var(--Light-red);
+}
+.Memory {
+  background: linear-gradient(0deg, var(--White-95), var(--White-95)),
+    var(--Orangey-yellow);
+  color: var(--Orangey-yellow);
+}
+.Verbal {
+  background: linear-gradient(0deg, var(--White-95), var(--White-95)),
+    var(--Green-teal);
+  color: var(--Green-teal);
+}
+.Visual {
+  background: linear-gradient(0deg, var(--White-95), var(--White-95)),
+    var(--Cobalt-blue);
+  color: var(--Cobalt-blue);
+}

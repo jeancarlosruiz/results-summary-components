@@ -1,0 +1,26 @@
+[
+  {
+    "category": "Reaction",
+    "score": 80,
+    "iconImg": "./src/images/icon-reaction.svg",
+    "iconAlt": "Thunder icon"
+  },
+  {
+    "category": "Memory",
+    "score": 92,
+    "iconImg": "./src/images/icon-memory.svg",
+    "iconAlt": "Brain icon"
+  },
+  {
+    "category": "Verbal",
+    "score": 61,
+    "iconImg": "./src/images/icon-verbal.svg",
+    "iconAlt": "Communication icon"
+  },
+  {
+    "category": "Visual",
+    "score": 72,
+    "iconImg": "./src/images/icon-visual.svg",
+    "iconAlt": "Eye icon"
+  }
+]

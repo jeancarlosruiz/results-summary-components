@@ -1,90 +1,113 @@
-# Website Starter Template React
+# Frontend Mentor - Results summary component solution
+
+This is a solution to the [Results summary component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
-- [Components](#components)
-  - [Visually Hidden](#visually-hidden)
-  - [Range Utility](#range-utility)
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-## Components
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-### Visually Hidden
+## Overview
 
-#### What's a screen reader?
+### The challenge
 
-A screen reader is a piece of software that parses the DOM and reads its contents aloud, using a synthetic voice. It's a vital tool used by folks who have poor or no vision (although screen readers are more broadly used by all sorts of people, including those who have dyslexia or other reading disorders).
+Users should be able to:
 
-#### Code:
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
 
-These styles will make sure the component is not visible, but will still be announced by screen readers.
+### Screenshot
 
-Adding “display: none” would hide the element from ALL users, including those using screen-readers.
+![](./screenshot.jpg)
 
-Source: https://www.joyofreact.com
-Section: Supporting screen readers exercises
+Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+
+Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
+
+Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+
+**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+
+### Links
+
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [Next.js](https://nextjs.org/) - React framework
+- [Styled Components](https://styled-components.com/) - For styles
+
+**Note: These are just examples. Delete this note and replace the list above with your own choices**
+
+### What I learned
+
+Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+
+To see how you can add code snippets, see below:
+
+```html
+<h1>Some HTML code I'm proud of</h1>
+```
+
+```css
+.proud-of-this-css {
+  color: papayawhip;
+}
+```
 
 ```js
-const hiddenStyles = {
-  display: "inline-block",
-  position: "absolute",
-  overflow: "hidden",
-  clip: "rect(0 0 0 0)",
-  height: 1,
-  width: 1,
-  margin: -1,
-  padding: 0,
-  border: 0,
+const proudOfThisFunc = () => {
+  console.log("🎉");
 };
 ```
 
-### Range Utility
+If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
-Range is a utility function. It's not part of the JavaScript language (unfortunately), but it is a staple of utility libraries like lodash.
+**Note: Delete this note and the content within this section and replace with your own learnings.**
 
-Range(n) will produce an array from 0 to n, where n is the supplied rating.
+### Continued development
 
-#### Code:
+Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
 
-```js
-const range = (start, end, step = 1) => {
-  let output = [];
+**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
-  if (typeof end === "undefined") {
-    end = start;
-    start = 0;
-  }
+### Useful resources
 
-  for (let i = start; i < end; i += step) {
-    output.push(i);
-  }
+- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
-  return output;
-};
-```
+**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
-range(2);
-Create an array from 0 (inclusive) to 2 (exclusive):
-Produces: [0, 1]
+## Author
 
-range(5);
-Create an array from 0 (inclusive) to 5 (exclusive):
-Produces: [0, 1, 2, 3, 4]
+- Website - [Add your name here](https://www.your-site.com)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
-range(2, 6);
-Create an array from 2 (inclusive) to 6 (exclusive):
-Produces: [2, 3, 4, 5]
-
-range(2, 10, 2);
-Create an array from 2 to 10, picking every 2nd number
-Produces: [2, 4, 6, 8]
-
-Source: https://www.joyofreact.com
-Section: Range Utility
+**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
-More than grateful to these amazing people who have been helping me throughout this process and building my template based on their references:
+This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
 
-- [Josh W Comeau](https://www.joyofreact.com/)
-- [Desarrollo Útil](https://www.youtube.com/@DesarrolloUtil)
+**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**

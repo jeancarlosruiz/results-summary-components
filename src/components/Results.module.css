@@ -31,8 +31,8 @@
 }
 
 .resultScore {
-  width: min(8.75rem, 12.5rem);
-  height: min(8.75rem, 12.5rem);
+  width: 8.75rem;
+  height: 8.75rem;
   color: var(--White);
   border-radius: 50%;
   font-size: var(--fs-900);
@@ -69,6 +69,10 @@
     border-radius: 2rem;
   }
 
+  .resultScore {
+    width: 12.5rem;
+    height: 12.5rem;
+  }
   .wrapper {
     gap: 0.875rem;
   }

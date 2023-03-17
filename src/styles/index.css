@@ -19,9 +19,11 @@
   /* Neutral */
 
   --White: hsl(0, 0%, 100%);
+  --White-95: hsla(0, 0%, 100%, 0.95);
   --Pale-blue: hsl(221, 100%, 96%);
   --Light-lavender: hsl(241, 100%, 89%);
   --Dark-gray-blue: hsl(224, 30%, 27%);
+  --Dark-gray-blue-a: hsla(224, 30%, 27%, 0.5);
 
   /* Font Family */
   --Hanken-Grotesk: "Hanken Grotesk", sans-serif;
@@ -46,6 +48,15 @@ body {
   font-family: var(--Hanken-Grotesk);
   font-weight: var(--fw-500);
   background-color: var(--Pale-blue);
+}
+
+.visually-hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 
 @media screen and (min-width: 40.625em) {
