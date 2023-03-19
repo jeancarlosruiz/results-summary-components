@@ -1,7 +1,6 @@
 import styles from "./App.module.css";
 import Results from "./components/Results";
 import Summary from "./components/Summary";
-import "./utilities/utils";
 
 function App() {
   return (

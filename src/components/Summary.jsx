@@ -2,32 +2,31 @@ import React from "react";
 import SummaryItem from "./SummaryItem";
 import Button from "./Button";
 import styles from "./Summary.module.css";
-// import data from "../data.json";
 
 function Summary() {
   const data = [
     {
       category: "Reaction",
       score: 80,
-      iconImg: "/icon-reaction.svg",
+      iconImg: "./icon-reaction.svg",
       iconAlt: "Thunder icon",
     },
     {
       category: "Memory",
       score: 92,
-      iconImg: "/icon-memory.svg",
+      iconImg: "./icon-memory.svg",
       iconAlt: "Brain icon",
     },
     {
       category: "Verbal",
       score: 61,
-      iconImg: "/icon-verbal.svg",
+      iconImg: "./icon-verbal.svg",
       iconAlt: "Communication icon",
     },
     {
       category: "Visual",
       score: 72,
-      iconImg: "/icon-visual.svg",
+      iconImg: "./icon-visual.svg",
       iconAlt: "Eye icon",
     },
   ];

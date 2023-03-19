@@ -4,10 +4,7 @@
       height="20"
       fill="none"
       viewBox="0 0 20 20"
-      role="img"
-      aria-describedby="icon-memory"
     >
-      <title id="icon-memory">Icon Memory</title>
       <path
         stroke="#FFB21E"
         stroke-linecap="round"
