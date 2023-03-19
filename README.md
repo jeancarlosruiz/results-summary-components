@@ -28,9 +28,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./design/Desktop.jpeg)
-![](./design/Mobile.png.jpg)
-![](./design/Lighthouse.jpeg.jpg)
+![](./design/Desktop.jpeg),
+![](./design/Mobile.png),
+![](./design/Lighthouse.jpeg)
 
 ### Links
 
